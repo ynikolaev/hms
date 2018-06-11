@@ -1,0 +1,997 @@
+@charset "utf-8";
+
+/* Desctop (portrait and landscape) ----------- */
+.container {
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+	background:#F9F6F4;
+	font-size: 1.5em;
+	font-family: "Lato", sans-serif;
+}
+
+.pageLogin {
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	padding-bottom: 10%;
+	background:#F9F6F4;
+	font-size: 1.5em;
+	font-familiy: Verdana, Geneva, sans-serif;
+}
+
+header{
+	padding-top: 1%;
+	width:100%;
+	height:35%;
+    background:url(http://hms-ibear.co.uk/Images/ibBarStrip.png) repeat-x top left;
+}
+
+.pageSplash {
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	background:#F9F6F4;
+	font-size: 1.5em;
+	font-familiy: Verdana, Geneva, sans-serif;
+}
+.splash {
+	display: none;
+}
+
+.index-text {
+    border-radius: 25px;
+    border: 2px solid #4F2412;
+    padding: 20px; 
+    width: 60%;
+    height: auto;
+    margin-top: 30%;
+    margin: 1%;
+    text-align: justify;
+}
+
+/* NAVIGATION MENU */
+
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin-top: 0;
+  overflow: hidden;
+  background-color: #F9F6F4;
+  clear: both;
+}
+
+.navLeft{float: left;}
+.navRight{float: right;}
+
+
+ul.topnav li a {
+  display: inline-block;
+  color: #4F2412;
+  text-align: center;
+  padding: 5px 25px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: large;
+}
+
+ul.topnav li a:hover {background-color: #E9E0DB;}
+
+ul.topnav li.icon {display: none;}
+
+.sidenav {
+	display: none;
+}
+
+.r-sidenav {
+	display: none;
+}
+
+/*-------------------*/
+.mobile-footer{
+	display: none;
+}
+
+.desktop-footer {
+	display: block;
+	text-align: center;
+	background-color: #C9A798;
+	padding: 1%;
+}
+
+a {
+	color:#4F2412;
+	text-decoration:none;
+}
+a hover{
+	color:#b9b9b9;
+}
+
+h1, h2 {
+	color:#4F2412;
+}
+
+.back {
+	height: auto;
+}
+
+/* IMAGES */
+.desk-menu-icon {
+	width: 25px;
+	height: 25px;
+}
+
+.back img[src="http://hms-ibear.co.uk/Images/logo2.png"]{
+	height: 250px;
+	width: auto;
+}
+
+.back img[src="http://hms-ibear.co.uk/Images/logo3.png"]{
+	height: 250px;
+	width: auto;
+}
+
+.back img[src="http://hms-ibear.co.uk/Images/logo3login.png"]{
+	height: 250px;
+	width: auto;
+}
+
+.back img[src="http://hms-ibear.co.uk/Images/logo3homepage.png"]{
+	height: 250px;
+	width: auto;
+}
+
+.back img[src="http://hms-ibear.co.uk/Images/logo3reg.png"]{
+	height: 250px;
+	width: auto;
+}
+
+.back img[src="http://hms-ibear.co.uk/Images/accessdenied.png"]{
+	height: 250px;
+	width: auto;
+}
+
+.back img[src="http://hms-ibear.co.uk/Images/enterdetails.png"]{
+	height: 250px;
+	width: auto;
+}
+
+.back img[src="http://hms-ibear.co.uk/Images/enterdetailslogin.png"]{
+	height: 250px;
+	width: auto;
+}
+
+#uname, #username {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/username.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+#pword {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/password.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+#conpword {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/password.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+#fname {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/fname-icon.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+#sname {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/sname-icon.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+#email {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/email.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+#address {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/address.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+#height {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/height.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+#weight {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/weight.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+#telephone {
+    background-color: white;
+    background-image: url('http://hms-ibear.co.uk/Images/telephone.png');
+    background-position: 98% 50%; 
+    background-repeat: no-repeat;
+}
+
+.back {
+	background:url(http://hms-ibear.co.uk/Images/ibBack.png) no-repeat top right;
+	height:207px;
+	color: #4F2412;
+	text-decoration: underline;
+}
+
+/*----------------------------*/
+
+#nogifPlace {
+	display: block;
+}
+
+#gifPlace {
+	display: none;
+}
+
+#index-menu {
+	padding-top: 0;
+	text-align: center;
+}
+
+#desktop-back {
+	display: block;
+}
+
+input[type=submit] {
+	border: none;
+    color: #4F2412;
+	padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #C9A798;
+    margin-bottom: 2%;
+}
+
+input[type=text] {
+	padding:5px; border:2px solid #C9A798; 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=text]:focus {
+	border-color:#4F2412; 
+}
+
+input[type=password] {
+	padding:5px; border:2px solid #C9A798; 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=password]:focus {
+	border-color:#4F2412; 
+}
+
+.login-text {
+	padding-left: 1%;
+	text-align: justify;
+	width: 98%;
+	font-size: 1em;
+}
+
+.desktop-border {
+	background:#F9F6F4;
+	width: 100%;
+	text-align: center;
+}
+
+.valid-errors {
+    border-radius: 25px;
+    border: none;
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+}
+
+#errormsg {
+	padding: 0;
+	margin: 0;
+	color: #ff0000;
+	font-size: 0.6em;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	html {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 20%;
+		margin:0;
+		background:#F9F6F4;
+		font-size: 1em;
+	}
+	
+	.container {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 20%;
+		margin: 0;
+		background:#F9F6F4;
+		font-familiy: Verdana, Geneva, sans-serif;
+	}
+	.pageLogin {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 25%;
+		margin:0 auto;
+		background:#F9F6F4;
+		font-size: 1.5em;
+		font-familiy: Verdana, Geneva, sans-serif;
+	}
+	
+	.index-text {
+	    border-radius: 25px;
+	    border: 2px solid #4F2412;
+	    padding: 20px; 
+	    width: auto;
+	    height: auto;
+	    margin-top: 15%;
+    }
+    
+    header{
+		padding-top: 1%;
+		width:100%;
+		height:150px;
+	    background:url(http://hms-ibear.co.uk/Images/ibBarStrip.png) repeat-x top left;
+	}
+
+	
+	.splash {
+		display: block;
+	}
+	#splimg {
+		display: block;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+	}
+	/* NAVIGATION BAR */
+	.topnav {
+		display: none;
+	}
+	.sidenav {
+		display: block;
+	    height: 100%;
+	    width: 0;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    left: 0;
+	    background-color: #C9A798;
+	    overflow-x: hidden;
+	    transition: 0.5s;
+	    padding-top: 60px;
+	}
+	
+	.sidenav a {
+	    padding: 10px 8px 25px 32px;
+	    text-decoration: none;
+	    font-size: 1.8em;
+	    color: #4F2412;
+	    display: block;
+	    transition: 0.3s;
+	    width: 300px;
+	}
+	
+	.sidenav a:hover, .offcanvas a:focus{
+	    color: #4F2412;
+	}
+	
+	.sidenav .closebtn {
+	    position: absolute;
+	    top: 0;
+	    right: 25px;
+	    font-size: 2em;
+	    margin-left: 50px;
+	}
+	
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 1.8em;}
+	
+	.right_sidenav {
+		display: block;
+	    height: 100%;
+	    width: 0;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    right: 0;
+	    background-color: #C9A798;
+	    overflow-x: hidden;
+	    transition: 0.5s;
+	    padding-top: 60px;
+	}
+	
+	.right_sidenav a {
+	    padding: 10px 8px 25px 32px;
+	    text-decoration: none;
+	    font-size: 1.8em;
+	    color: #4F2412;
+	    display: block;
+	    transition: 0.3s;
+	    width: 300px;
+	}
+	
+	.right_sidenav a:hover, .offcanvas a:focus{
+	    color: #4F2412;
+	}
+	
+	.right_sidenav .closebtn {
+	    position: absolute;
+	    top: 0;
+	    left: 65%;
+	    font-size: 2em;
+	    margin-left: 50px;
+	}
+	
+	.right_sidenav {padding-top: 15px;}
+	.right_sidenav a {font-size: 1.8em;}
+	
+	#profile-arrow {
+		height: 40px;
+		width: 40px;
+		margin-left: 10px;
+	}
+	
+	#setting-arrow {
+		height: 40px;
+		width: 40px;
+		margin-left: 10%;
+	}
+	
+	#profile-menu-links {
+		padding-left: 30px;
+		font-size: 0.8em;
+	}
+	
+	#settings-links {
+		padding-left: 30px;
+		font-size: 0.8em;
+	}
+	/*----------------*/
+	
+	/* PAYMENTS */
+	    	
+	table {
+	    font-family: arial, sans-serif;
+	    border-collapse: collapse;
+	    width: auto;
+	    height: auto;
+	    margin-bottom: 10%;
+	}
+	
+	td, th {
+		width: 50%;
+	    text-align: left;
+	    border: none;
+	    padding: 8px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	
+	th {
+	    background-color: #C9A798;
+	    padding: 5px;
+	}
+	
+	.payment-tab {
+		margin-top: 10%;
+		width: auto;
+		background-color: #E9E0DB;
+		margin-bottom: 10%;
+		height: auto;
+		width: auto;
+	}
+	
+	.total-td {
+		width: 50%;
+		background-color: #E9E0DB;
+		font-weight: bold;
+		text-align: left;
+	}
+	
+	.quest-td{
+		text-align: center;s
+	}
+	
+	.payment-td {
+		width: 10px;
+			    text-align: left;
+	    border: none;
+	    padding: 8px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	
+	.payment-td-hide {
+		display: none;
+	}
+	
+	.payment-quest {
+		width: 40px;
+		height: 40px;
+	}
+	
+	caption {
+		font-size: x-large;
+		caption-side: top;
+	    margin-top: 1%;
+    }
+    
+    #ajax-bill_pic {
+	    text-align: center;
+	    width: 10em;
+	    height: 10em;
+    }
+
+	#ajax-bill_id {
+		text-align: center;
+		font-size: xx-large;
+		font-weight: bold;
+		padding: 10px;
+	}
+	
+	#ajax-bill_description {
+		text-align: center;
+		font-size: x-large;
+		font-weight: bold;
+		padding: 10px;
+	}
+	
+	#ajax-bill_amount {
+		text-align: center;
+		font-size: x-large;
+		font-weight: bold;
+		padding: 10px;
+	}
+	
+	#ajax-bill_date {
+		text-align: center;
+		font-size: x-large;
+		font-weight: bold;
+		padding: 10px;
+	}
+	/*-----------------*/
+	
+	.valid-errors {
+	    border-radius: 25px;
+	    border: none;
+	    height: auto;
+	    width: 93%;
+	    margin-left: 1%;
+	    margin-bottom: 0%;
+	    margin-top: 15%;
+	    text-align: left;
+	    padding: 2%;
+	}
+	
+	.login-text {
+		padding-top: 5%;
+		text-align: justify;
+		width: 97%;
+		font-size: 1em;
+	}
+	
+	.reg-text {
+		padding-top: 5%;
+		text-align: justify;
+		width: 98%;
+		font-size: 1em;
+		padding-left: 1%;
+	}
+	
+	.reg-submit {
+		text-align: center;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/logo3s.png"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/logo3.gif"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/logo3slogin.png"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/logo3slogin.gif"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/logo3homepage.png"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/logo3reg.png"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/accessdenied.png"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/enterdetails.png"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/enterdetailslogin.png"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back img[src="http://hms-ibear.co.uk/Images/logo3payments.png"]{
+		height: 200px;
+		width: 100%;
+	}
+	
+	.back {
+		background:url(http://hms-ibear.co.uk/Images/ibBack.png) no-repeat top right;
+		height:147px;
+		color: #4F2412;
+		text-decoration: underline;
+	}
+	
+	#nogifPlace {
+		display: none;
+	}
+	
+	#gifPlace {
+		display: block;
+	}
+	
+	.desktop-footer {
+		display: none;
+	}
+	
+	#desktop-back {
+		display: none;
+	}
+	
+	.mobile-footer {
+		display: block;
+		position:fixed; z-index:999;
+		width:100%;
+	    bottom:-30px;
+		margin-top: -72px; /* negative value of footer height */
+		margin-top: 0px !ie; /* for IE */
+		height: 92px;
+		clear:both; text-align:center;
+		background: repeat-x #C9A798;
+	} 
+	
+		/*Opera Fix*/
+	body:before {
+		content:"";
+		height:100%;
+		float:left;
+		width:0;
+		margin-top:-32767px;/
+	}
+
+	/* IE 6 */
+	* html #footer {
+	   position:absolute;
+	   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+	}
+
+	
+	input[type=submit] {
+		border: none;
+	    color: #4F2412;
+		padding: 14px 40px;
+	    text-align: center;
+	    text-decoration: none;
+	    font-size: 16px;
+	    margin: 4px 2px;
+	    cursor: pointer;
+	    font-size: 24px;
+	    border-radius: 12px;
+	    background-color: #C9A798;
+	}
+	
+	input[type=text] {
+	    width: 100%;
+	    box-sizing: border-box;
+	    border: 2px solid #C9A798;
+	    border-radius: 5px;
+	    -webkit-border-radius: 5px;
+	    font-size: 16px;
+	    padding: 12px 50px 12px 10px;
+	}
+	input[type=text]:focus {
+		border-color:#4F2412; 
+	}
+	#uname, #username {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/username.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+	
+	input[type=password] {
+	    width: 100%;
+	    box-sizing: border-box;
+	    border: 2px solid #C9A798;
+	    border-radius: 5px;
+	    -webkit-border-radius: 5px;
+	    font-size: 16px;
+	    padding: 12px 50px 12px 10px;
+	}
+	input[type=password]:focus {
+		border-color:#4F2412; 
+	}
+	#pword {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/password.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+
+	#conpword {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/password.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+	
+	#fname {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/fname-icon.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+	
+	#sname {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/sname-icon.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+	
+	#email {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/email.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+	
+	#address {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/address.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+	
+	#height {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/height.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+	
+	#weight {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/weight.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+	
+	#telephone {
+	    background-color: white;
+	    background-image: url('http://hms-ibear.co.uk/Images/telephone.png');
+	    background-position: 95% 10px; 
+	    background-repeat: no-repeat;
+	}
+
+	
+	input[type=number] {
+		padding:5px; border:2px solid #C9A798; 
+		-webkit-border-radius: 5px;
+	    border-radius: 5px;
+	    outline: none;
+	}
+	input[type=number]:focus {
+		border-color:#4F2412; 
+	}
+	
+	input[type=radio] {
+	    font-size: 24px;
+	    line-height: 50px;
+		height: auto;
+		width: auto;
+		background: #C9A798;
+		border: 1px solid #C9A798;
+		box-shadow: inset 0px 0px 0px 2px #C9A798;
+		-webkit-box-shadow: inset 0px 0px 0px 2px #C9A798;
+		-moz-box-shadow: inset 0px 0px 0px 2px #C9A798;
+		-o-box-shadow: inset 0px 0px 0px 2px #C9A798;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		-o-border-radius: 8px;
+	}
+	
+	input[type=radio]:checked {
+		background-color: #C9A798;
+	}
+	
+	.reg-select select {
+	   background: transparent;
+	   width: 268px;
+	   padding: 5px;
+	   font-size: 16px;
+	   line-height: 1;
+	   border: 0;
+	   border-radius: 0;
+	   height: 34px;
+	   -webkit-appearance: none;
+	}   
+	
+	.reg-select {
+	   width: 240px;
+	   height: 34px;
+	   overflow: hidden;
+	   background: url(http://hms-ibear.co.uk/Images/new_arrow.jpg) no-repeat right #f2ecec;
+	   border: 1px solid #ccc;
+	   } 
+	   
+	.reg-time select {
+	   width: 268px;
+	   padding: 5px;
+	   font-size: 16px;
+	   line-height: 1;
+	   border: 0;
+	   border-radius: 0;
+	   height: 34px;
+	   background-color: #E9E0DB;
+	}   
+	
+	.reg-time {
+	   width: 240px;
+	   height: 34px;
+	   overflow: hidden;
+	   } 
+	   
+	.reg-time select:active { 
+	    background-color: #E9E0DB;
+	}
+	
+	.indexBox {
+		text-align:center;
+		border-width:2px;
+		border-style:solid;
+		border-color:#E9E0DB;
+		width:80%;
+		padding:2%;
+		font-size: 30px;
+		font-weight: 400;
+		display: inline-block;
+		position: relative;
+	}
+	
+	#register {
+		padding: 1%;
+		margin-top:10%;
+		margin-bottom: 10%;
+		width:auto;
+	}
+	
+	#errormsg {
+		padding: 0;
+		margin: 0;
+		color: #ff0000;
+		font-size: 0.6em;
+	}
+	
+	#error-head {
+		color: #ff0000;
+		font-size: 0.8em;
+	}
+	
+	#message {
+		font-weight: 200;
+		color: red;
+		font-size: 0.8em;
+	}
+	
+	#submit {
+		font-weight: 200;
+		font-size: 1em;
+	}
+
+	.back-button {
+		width: 50px;
+		height: 50px;
+	}
+	
+	#menu-button {
+		width: 50px;
+		height: 50px;
+	}
+	
+	#quest-button {
+		width: 50px;
+		height: 50px;
+	}
+	
+	.empty-slot {
+		width: 50px;
+		height: 50px;
+	}	
+	
+	.footer-bar {
+   margin-left: auto;
+   margin-right: auto;
+	}
+	
+	.mob-menu-icon {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.mob-menu-switcher {
+		margin-left: 10%;
+		width: 70px;
+		height: 30px;
+	}
+	
+	.sub-mob-menu-icon {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.page {
+		width: 100%;
+		height: auto;
+		margin:0 auto;
+		padding:0;
+		background:#F9F6F4;
+		font-size: 1em;
+		font-familiy: Verdana, Geneva, sans-serif;
+	}
+
+}

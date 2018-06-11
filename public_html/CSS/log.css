@@ -1,0 +1,162 @@
+@charset "utf-8";
+.page {
+	width: 80%;
+	height: auto;
+	margin:0 auto;
+	padding:1%;
+	background:#F9F6F4;
+	font-size: 1em;
+	font-familiy: Verdana, Geneva, sans-serif;
+}
+
+input[type=submit] {
+	padding:5px 15px; background:#E9E0DB; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: auto;
+}
+
+input[type=text] {
+	padding:5px; border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=text]:focus {
+	border-color:#333; 
+}
+
+input[type=password] {
+	padding:5px; border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=password]:focus {
+	border-color:#333; 
+}
+
+input[type=number] {
+	padding:5px; border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=number]:focus {
+	border-color:#333; 
+}
+
+#submit:disabled {
+    background: #CCCCCC;
+}
+
+.indexBox {
+	text-align:center;
+	border-width:2px;
+	border-style:solid;
+	border-color:#043570;
+	width:80%;
+	padding:2%;
+	font-size: 30px;
+	font-weight: 400;
+	display: inline-block;
+	position: relative;
+}
+
+a {
+	color:#043570;
+	text-decoration:none;
+}
+a hover{
+	color:#b9b9b9;
+}
+
+#login {
+	padding: 1%;
+	margin-top:5%;
+	margin-bottom: 10%;
+	width:auto;
+}
+
+#register {
+	padding: 1%;
+	margin-top:5%;
+	margin-bottom: 10%;
+	width:auto;
+}
+
+#errormsg {
+	font-weight: 100;
+	color: #ff0000;
+	font-size: 1em;
+}
+
+#message {
+	font-weight: 200;
+	color: #ff0000;
+	font-size: 1.5em;
+}
+
+#message2 {
+	font-weight: 200;
+	color: #ff0000;
+	font-size: 1.5em;
+}
+
+#submit {
+	font-weight: 200;
+	font-size: 1.5em;
+}
+
+.reg-line {
+	display: inline-block;
+	width: 100%;
+	padding: 1%;
+}
+
+.reg-time select {
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   border-color: black;
+   height: 34px;
+}   
+
+.reg-time {
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   } 
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+}
+
+td, th {
+    border: 1px solid #000080;
+    text-align: left;
+    border: none;
+    padding: 8px;
+    width: 50%;
+}
+
+th {
+    background-color: #F9F6F4;
+}
+
+tr:nth-child(even) {
+    background-color: #F9F6F4;
+}
+
+div.hidden
+{
+   display: none
+}
+
